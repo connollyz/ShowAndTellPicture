@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>picture</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/picture.css">
+</head>
+<body>
+    <header>
+        <div class="wrapper typewriter">
+            <h1>&#60; picture &#62;</h1>
+        </div>
+    </header>
+    <main>
+        <section class="what">
+            <picture>
+                <source media="(min-width: 1024px)" srcset="assets/dogOne.jpg">
+                    <!-- http://dogsaholic.com/names/nerdy-dog-names.html -->
+                <source media="(min-width: 768px)" srcset="assets/dogTwo.jpg">
+                    <!-- https://www.mydogsname.com/nerdy-dog-names-for-your-pup/ -->
+                <source media="(min-width: 0px)" srcset="assets/dogThree.jpg">
+                    <!-- thehiringadvisors.com -->
+                <img src="assets/dogThree.jpg" alt="nerdy dog">
+            </picture>
+            <div class="text">
+                <h2>What does it do</h2>
+                <p>The picture elemet allows you to change your photo depending on the size of your browser.</p>
+                <p>This also alows you to optimise your images bases on browser size so you dont have to lode a big image file on a
+                    small screen.</p>
+            </div>
+        </section>
+        <section class="code">
+                <div class="htmlCode">
+                    <div class="wrapper"> 
+                        <h2 class="how">How does it work?</h2>
+                        <p class="commentOut">&#60;&#33;&#8211;&#8211; html &#8211;&#8211;&#62;</p>
+                        <p class="picElement"><span class="darkGray">&#60;</span></span><span class="darkBlue"> picture </span><span class="darkGray">&#62;</span></p>
+                            <div class="tab1">
+                                <!-- option one -->
+                                <p class="commentOut">&#60;&#33;&#8211;&#8211; option one &#8211;&#8211;&#62;</p> 
+
+                                <p><span class="darkGray">&#60;</span><span class="darkBlue"> source</span> <span class="lightBlue">media</span> &#61; <span class="orange">&#34;  &#40;  min &#8211; width &#58; 1024px &#41; &#34;</span> <span class="lightBlue">srcset</span> &#61; <span class="orange">&#34; imageOne &#46; jpg &#34;</span><span class="darkGray"> &#62;</span></p> 
+
+                                <!-- option two -->
+                                <p class="commentOut">&#60;&#33;&#8211;&#8211; option two &#8211;&#8211;&#62;</p>
+                                <p><span class="darkGray">&#60;</span><span class="darkBlue"> source</span> <span class="lightBlue">media</span> &#61;
+                                <span class="orange">&#34; &#40; min &#8211; width &#58; 768px &#41; &#34;</span> <span class="lightBlue">srcset</span>&#61; <span class="orange">&#34; imageTwo &#46; jpg &#34;</span><span class="darkGray"> &#62;</span></p>
+                                
+                                <!-- option three -->
+                                <p class="commentOut">&#60;&#33;&#8211;&#8211; option three &#8211;&#8211;&#62;</p>
+                                <p><span class="darkGray">&#60;</span><span class="darkBlue"> source</span> <span class="lightBlue">media</span> &#61;<span class="orange">&#34; &#40; min &#8211; width &#58; 320px &#41; &#34;</span> <span class="lightBlue">srcset</span>&#61;<span class="orange">&#34; imageThree &#46; jpg &#34;</span><span class="darkGray"> &#62;</span></p>
+                                
+                                <!-- fall back image -->
+                                <p class="commentOut">&#60;&#33;&#8211;&#8211; fall back image &#8211;&#8211;&#62;</p>
+                                <p><span class="darkGray">&#60;</span><span class="darkBlue">img</span> <span class="lightBlue">src</span>  &#61; <span class="orange"> &#34; image &#46; jpg  &#34;</span> <span class="lightBlue">alt</span> &#61;<span class="orange"> &#34; fall back image &#34;</span><span class="darkGray">&#62;</span></p>
+                             </div>
+                        <p class="picElement"><span class="darkGray">&#60; &#47;</span></span><span class="darkBlue"> picture </span><span class="darkGray">&#62;</span></p>
+                    </div>
+                </div>
+        </section>
+        <section class="example">
+            <div class="picAd">
+                <picture class="ad">
+                    <source media="(min-width: 1024px)" srcset="assets/banner.png">
+                    <!-- http://dogsaholic.com/names/nerdy-dog-names.html -->
+                    <source media="(min-width: 768px)" srcset="assets/skyscrapper.png">
+                    <!-- https://www.mydogsname.com/nerdy-dog-names-for-your-pup/ -->
+                    <source media="(min-width: 0px)" srcset="assets/square.png">
+                    <!-- thehiringadvisors.com -->
+                    <img class="ads" src="assets/banner.png" alt="nerdy dog">
+                </picture>
+            </div>
+            <div class="text">
+                <h2>Why would you use this?</h2>
+                <p>The picture elemet is most offen used for art direction.</p>
+            </div>
+        </section>
+        <section class="browser">
+            <div class="htmlCode">
+                <div class="icons">
+                    <i class="fab fa-chrome green"></i> 
+                    <i class="fab fa-safari green"></i>
+                    <i class="fab fa-edge green"></i>
+                    <i class="fab fa-opera green"></i>
+                    <i class="fab fa-firefox yellow"></i>
+                    <i class="fab fa-internet-explorer red"></i>
+                </div>
+            </div>
+            <div class="text">
+                <h2>Browser compatibility?</h2>
+                <p>&#60; picture &#62; Works in all most all browsers except you guest it Internet Explorer!</p>
+                <p>Firefox does suport it altho there may be some issues to watch out for. </p>
+            </div>
+        </section> 
+
+    </main>
+ 
+</body>
+</html>

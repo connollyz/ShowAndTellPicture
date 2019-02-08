@@ -1,0 +1,158 @@
+
+img{
+    display:block;
+
+}
+
+header{
+    background: #F1C40F;
+    padding: 25% 0;
+}
+.wrapper{
+    width:80%;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    font-size: 3rem;
+    text-shadow: 2px 2px 3px #D4AC0D;
+    width: 70%;
+}
+
+h2{
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+}
+
+p{
+    margin: 0;
+    font-size: 1rem;
+    padding: 5px 0;
+}
+
+h1, h2, p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.what img{
+    width: 100%; 
+}
+
+.text{
+    border-left: 25px solid #F1C40F;
+    padding: 5px 0 5px 5%;
+    width: 85%;
+    margin: 5% 0;
+}
+
+.tab1{
+    padding-left: 40px;
+}
+
+.commentOut{
+    color: green;
+}
+
+.how{
+    color: #fff;
+    margin: 5% 0;
+}
+
+.htmlCode{
+    background:#1B1B1B;
+    color:#fff;
+    margin: 0 auto;
+    padding: 150px 0;
+}
+
+.htmlCode p{
+    font-size: 20px;
+}
+
+.example{
+    margin: 10% 0;
+}
+
+.example img{
+    box-shadow: 5px 5px 3px rgba(27,27,27, 0.3);
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:80%;
+    margin: 0 auto;
+    font-size: 4rem;
+}
+
+.yellow{
+    color: #F1C40F;
+}
+
+.green{
+    color:  rgb(5, 199, 21);
+}
+
+.red{
+    color: rgb(241, 15, 15);
+}
+
+.orange{
+    color: orange;
+}
+
+.lightBlue{
+    color: lightskyblue;
+}
+
+.darkBlue{
+    color: rgb(0, 123, 199);
+}
+
+.darkGray{
+    color: darkgray;
+}
+
+@media (max-width:768){
+    html{
+        font-size: 90%;
+    }
+}
+
+@media (max-width:320){
+    html{
+        font-size: 50%;
+    }
+    .wrapper{
+        width: 90%;
+    }
+}
+
+
+/* code from css tricks */
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid #ffffff; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #fff; }
+}
